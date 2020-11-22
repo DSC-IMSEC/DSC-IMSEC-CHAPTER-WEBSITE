@@ -25,6 +25,9 @@ const Navbar =()=>{
         <NavLink activeClassName='menu-active' exact className="nav-link" to="/team">Team</NavLink>
       </li>
       <li className="nav-item">
+        <NavLink activeClassName='menu-active' exact className="nav-link" to="/Event">Event</NavLink>
+      </li>
+      <li className="nav-item">
         <NavLink activeClassName='menu-active' exact className="nav-link" to="/about">About</NavLink>
       </li>
       <li className="nav-item">

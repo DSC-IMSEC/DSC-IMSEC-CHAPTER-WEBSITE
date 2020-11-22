@@ -9,6 +9,7 @@ import Navbar from  './components/Navbar';
 import Contact from './components/Contact';
 import Login from './components/Login';
 import Sign from './components/signin';
+import Event from './components/Event';
 
 const App=()=>{
 return (
@@ -18,6 +19,7 @@ return (
     <Route exact path="/" component={Home}/>
     <Route exact path="/about" component={About}/>
     <Route exact path="/team" component={Team}/>
+    <Route exact path="/event" component={Event}/>
     <Route exact path="/contact" component={Contact}/>
     <Route exact path="/login" component={Login}/>
     <Route exact path="/sign" component={Sign}/> 
