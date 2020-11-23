@@ -49,14 +49,14 @@ app.post('/send',(req,res)=>{
        port:587,
        secure:false,
        auth:{
-         user:'Developer Student Clubs IMSEC',
-         pass:'deathnote03'
+         user:'#####',
+         pass:'#####'
        }
      });
      //setup mail data with unicode symbols
      var mail = {
       from: name,
-      to: 'dscimsec@gmail.com', 
+      to: '####', 
       subject: 'New Message from Contact Form',
       text: content
     }
