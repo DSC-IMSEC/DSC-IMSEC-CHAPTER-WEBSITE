@@ -12,7 +12,7 @@ const About=()=> {
                     <AboutHeader/>
                     <div className="container">
                         <div className="row">
-                            <div id="navbar-example">
+                            <div id="navbar-example" className="mb-5">
                                 <AboutNav/>
                                 <AboutContent/>
                             </div>
