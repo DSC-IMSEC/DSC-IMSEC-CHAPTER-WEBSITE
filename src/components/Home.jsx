@@ -4,15 +4,13 @@ import MyContent from "./MyContent";
 import "../components/css/Home.css";
 
 
-const Home=()=>{
-return (
+const Home = () => {
+  return (
     <>
-    <header>
-    <Header/>
-    </header>
-    <MyContent/>    
-  </>
-)
+      <Header />
+      <MyContent />
+    </>
+  )
 
 };
 

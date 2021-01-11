@@ -1,0 +1,10 @@
+POST http://localhost:3001/contact
+Content-Type: application/json
+
+{
+    "email":"bg@gmail.com",
+    "name":"Pradumn Gaur",
+    "phone":"1234567890",
+    "message":"yes"
+    
+}
